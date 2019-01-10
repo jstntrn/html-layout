@@ -1,24 +1,12 @@
-/*
-Color Palette:
-background #FFFFFF white default
-borders #000000
-purple rect #8A2BE2
-green rect #228B22
-blue circle #87CEEB
-yellow rect #FFFACD
-font color #000080
-*/
 body {
     background-color: #FFFFFF;
     margin: 0;
 }
 
 .first {
-    /* display: flex; */
     border: solid;
-    height: 19vh;
-    width: 95%;
-    margin: 17px auto;
+    height: 180px;
+    margin: 17px 10px;
     padding: 10px;
 }
 
@@ -27,6 +15,8 @@ body {
     background-color: #8A2BE2;
     height: 65%;
     width: 40px;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
 
 .green {
@@ -34,22 +24,21 @@ body {
     background-color: #228B22;
     height: 90%;
     width: 45%;
-    margin: auto 20px;
+    margin: 5px 20px;
 }
 
 .blue {
     display: inline-block;
     background-color: #87CEEB;
-    height: 170px;
-    width: 170px;
-    border-radius: 50%
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
 }
 
 .second {
     border: dotted;
-    height: 23vh;
-    width: 95%;
-    margin: 17px auto;
+    height: 200px;
+    margin: 17px 10px;
     padding: 10px;
 }
 
@@ -65,7 +54,7 @@ body {
     background-color: #FFFFFF;
     border: 1px solid lightgray;
     box-shadow: 2px 2px 2px lightgray;
-    height: 23vh;
+    height: 200px;
     width: 45%;
     margin: 17px auto;
 }
