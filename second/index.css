@@ -1,0 +1,82 @@
+/*
+Color Palette:
+background #FFFFFF white default
+borders #000000
+purple rect #8A2BE2
+green rect #228B22
+blue circle #87CEEB
+yellow rect #FFFACD
+font color #000080
+*/
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+.first {
+    /* display: flex; */
+    border: solid;
+    height: 19vh;
+    width: 95%;
+    margin: 17px auto;
+    padding: 10px;
+}
+
+.purple {
+    display: inline-block;
+    background-color: #8A2BE2;
+    height: 65%;
+    width: 40px;
+}
+
+.green {
+    display: inline-block;
+    background-color: #228B22;
+    height: 90%;
+    width: 45%;
+    margin: auto 20px;
+}
+
+.blue {
+    display: inline-block;
+    background-color: #87CEEB;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%
+}
+
+.second {
+    border: dotted;
+    height: 23vh;
+    width: 95%;
+    margin: 17px auto;
+    padding: 10px;
+}
+
+.yellow {
+    background-color: #FFFACD;
+    box-shadow: 5px 5px 5px black;
+    height: 75%;
+    width: 92%;
+    margin: 20px auto;
+}
+
+.third {
+    background-color: #FFFFFF;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 2px lightgray;
+    height: 23vh;
+    width: 45%;
+    margin: 17px auto;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 80px;
+    color: #000080;
+}

@@ -1,0 +1,50 @@
+/* 
+blue square #4A90E2
+grey banner #D8D8D8
+blue stripe #4A90E2
+2nd stripe #50E3C2
+3rd stripe #B8E986
+4th stripe #F8E71C 
+*/
+
+body {
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+p {
+    margin: 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header {
+    display: flex;
+    background-color: #D8D8D8;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    margin: 10px 25px;
+}
+
+.stripe {
+    height: 120px;
+}
+
+.one {
+    background-color: #4a90e2;
+}
+
+.two {
+    background-color: #50E3C2;
+}
+
+.three {
+    background-color: #B8E986;
+}
+
+.four {
+    background-color: #F8E71C;
+}
